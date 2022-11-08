@@ -10,10 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    readFile.cpp \
+    teamClass.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    readFile.h
 
 FORMS += \
     mainwindow.ui
@@ -24,4 +27,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    src.qrc
+    src.qrc \
+    teamFile.qrc

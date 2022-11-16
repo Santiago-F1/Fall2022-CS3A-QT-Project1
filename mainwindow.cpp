@@ -13,11 +13,6 @@ MainWindow::MainWindow(QWidget *parent)
     int w = ui->graphicsView->width();
     int h = ui->graphicsView->height();
     ui->graphicsView->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
-
-    QPixmap pix("C:/Users/alexp/Desktop/Git and QT/Fall2022-CS3A-QT-Project1/imgs/Right graphic.jpg");
-    int w = ui->graphicsView_2->width();
-    int h = ui->graphicsView_2->height();
-    ui->graphicsView_2->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
 }
 
 MainWindow::~MainWindow()

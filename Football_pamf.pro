@@ -12,7 +12,8 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     readFile.cpp \
-    teamClass.cpp
+    teamClass.cpp \
+    teamVector.cpp
 
 HEADERS += \
     mainwindow.h \

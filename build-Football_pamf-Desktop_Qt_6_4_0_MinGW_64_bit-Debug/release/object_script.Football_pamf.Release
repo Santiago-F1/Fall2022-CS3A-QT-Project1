@@ -1,0 +1,13 @@
+release/admin.o
+release/contactus.o
+release/main.o
+release/mainwindow.o
+release/readFile.o
+release/teamClass.o
+release/teamVector.o
+release/qrc_newTeams.o
+release/qrc_src.o
+release/qrc_teamFile.o
+release/moc_admin.o
+release/moc_contactus.o
+release/moc_mainwindow.o

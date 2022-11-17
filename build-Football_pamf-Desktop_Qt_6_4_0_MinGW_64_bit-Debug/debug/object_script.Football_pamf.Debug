@@ -1,0 +1,13 @@
+debug/admin.o
+debug/contactus.o
+debug/main.o
+debug/mainwindow.o
+debug/readFile.o
+debug/teamClass.o
+debug/teamVector.o
+debug/qrc_newTeams.o
+debug/qrc_src.o
+debug/qrc_teamFile.o
+debug/moc_admin.o
+debug/moc_contactus.o
+debug/moc_mainwindow.o

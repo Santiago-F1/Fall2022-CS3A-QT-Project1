@@ -10,6 +10,7 @@ CONFIG += c++17
 
 SOURCES += \
     admin.cpp \
+    help.cpp \
     main.cpp \
     mainwindow.cpp \
     readFile.cpp \
@@ -18,6 +19,7 @@ SOURCES += \
 
 HEADERS += \
     admin.h \
+    help.h \
     mainwindow.h \
     readFile.h \
     teamDefinition.h \
@@ -25,6 +27,7 @@ HEADERS += \
 
 FORMS += \
     admin.ui \
+    help.ui \
     mainwindow.ui
 
 # Default rules for deployment.

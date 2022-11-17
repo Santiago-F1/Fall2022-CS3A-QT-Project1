@@ -24,14 +24,18 @@ void admin::on_pushButton_clicked()
 {
 QString password;
 password=ui->lineEdit_Admin->text();
+
+QString txt;
+txt=ui->lineEdit_txt->text();
+
 if(password == "password"){
 //QFile file("qrc://teams//teamFile");
 
-    QString path = ":/newTeams/Expansion.txt";
+QString path = txt; // :/newTeams/Expansion.txt
+    //QString path = ":/newTeams/Expansion.txt";
     readFromFileIntoVector(teamVector,path);
 
-
-
+ui->lineEdit_txt->setText("team added");
 
 }
 else{

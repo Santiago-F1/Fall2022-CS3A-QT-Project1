@@ -19,7 +19,9 @@ SOURCES += \
 HEADERS += \
     admin.h \
     mainwindow.h \
-    readFile.h
+    readFile.h \
+    teamDefinition.h \
+    teamFile.h
 
 FORMS += \
     admin.ui \

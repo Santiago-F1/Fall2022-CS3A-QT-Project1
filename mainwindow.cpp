@@ -1,10 +1,14 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "admin.h"
+<<<<<<< HEAD
+#include "help.h"
+=======
 #include "readFile.h"
 #include <QTextEdit>
 
 extern vector<Team> teamVector;
+>>>>>>> mastertest
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -30,6 +34,13 @@ admin.exec();
 }
 
 
+<<<<<<< HEAD
+void MainWindow::on_pushButton_21_clicked()
+{
+    Help help;
+    help.setModal(true);
+    help.exec();
+=======
 void MainWindow::on_sortByTeamName_clicked()
 {
     ui->textBrowser->clear();
@@ -99,5 +110,6 @@ void MainWindow::on_pushButton_15_clicked()
     text.append(to_string(totalCap));
     QString cap = QString::fromStdString(text);
     ui->textBrowser->append(cap);
+>>>>>>> mastertest
 }
 

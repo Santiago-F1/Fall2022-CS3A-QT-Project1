@@ -3,5 +3,6 @@
         <file>imgs/icon.png</file>
         <file>imgs/Left graphic.png</file>
         <file>imgs/Right graphic.png</file>
+        <file>imgs/help.png</file>
     </qresource>
 </RCC>
